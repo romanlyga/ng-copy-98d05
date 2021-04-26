@@ -625,6 +625,8 @@ models:
     exclude: exclude
     match: pattern
     fields:
+      - name: ''
+        type: string
       - name: d
         type: string
         label: label1
@@ -632,5 +634,3 @@ models:
         hidden: true
         default: d4
         const: d4
-      - name: ''
-        type: string
