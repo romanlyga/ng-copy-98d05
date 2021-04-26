@@ -631,3 +631,4 @@ models:
         description: d1
         hidden: true
         default: d4
+        const: d4
