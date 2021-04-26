@@ -628,3 +628,4 @@ models:
       - name: name
         type: string
         label: label1
+        description: d1
