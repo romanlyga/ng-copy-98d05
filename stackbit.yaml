@@ -617,3 +617,7 @@ models:
   test:
     type: object
     label: test
+  pagemodel1:
+    type: page
+    label: pagemodel1
+    layout: pagemodel1
