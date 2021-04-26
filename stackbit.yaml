@@ -629,3 +629,4 @@ models:
         type: string
         label: label1
         description: d1
+        const: value
