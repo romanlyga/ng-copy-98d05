@@ -625,5 +625,5 @@ models:
     exclude: exclude
     match: pattern
     fields:
-      - name: ''
+      - name: name
         type: string
