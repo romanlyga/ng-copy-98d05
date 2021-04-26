@@ -614,3 +614,6 @@ models:
   a2133:
     type: object
     label: a2133
+  test:
+    type: object
+    label: test
