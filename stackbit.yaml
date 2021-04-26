@@ -624,3 +624,6 @@ models:
     folder: Path
     exclude: exclude
     match: pattern
+    fields:
+      - name: ''
+        type: string
