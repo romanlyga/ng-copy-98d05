@@ -627,3 +627,4 @@ models:
     fields:
       - name: name
         type: string
+        label: label1
