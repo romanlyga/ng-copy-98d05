@@ -132,12 +132,12 @@ models:
       - type: string
         name: id
         label: ID
-        description: 'A unique identifier used when filtering posts, e.g. "john-doe"'
+        description: A unique identifier used when filtering posts, e.g. "john-doe"
         required: true
       - type: string
         name: link
         label: Link
-        description: 'The link to the author page, e.g. "blog/author/john-doe"'
+        description: The link to the author page, e.g. "blog/author/john-doe"
       - type: string
         name: first_name
         label: First Name
@@ -163,12 +163,12 @@ models:
       - type: string
         name: id
         label: ID
-        description: 'A unique identifier used when filtering posts, e.g. "news"'
+        description: A unique identifier used when filtering posts, e.g. "news"
         required: true
       - type: string
         name: link
         label: Link
-        description: 'The link to the category page, e.g. "blog/category/news"'
+        description: The link to the category page, e.g. "blog/category/news"
       - type: string
         name: title
         label: Title
@@ -177,7 +177,8 @@ models:
     type: page
     label: Page
     layout: page
-    exclude: blog/**/*
+    exclude:
+      - blog/**/*
     fields:
       - type: string
         name: title
@@ -188,9 +189,10 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: /blog/{slug}
     label: Post
     layout: post
     folder: blog
@@ -245,6 +247,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   advanced:
     type: page
     label: Advanced Page
@@ -274,6 +277,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+        label: Seo
   blog_feed_section:
     type: object
     label: Blog Feed Section
@@ -595,11 +599,18 @@ models:
             - type: string
               name: name
               default: ''
+              label: Name
             - type: string
               name: value
               default: ''
+              label: Value
             - type: string
               name: keyName
               default: name
+              label: Key Name
             - type: boolean
               name: relativeUrl
+              label: Relative Url
+  a2133:
+    type: object
+    label: a2133
