@@ -625,7 +625,7 @@ models:
     exclude: exclude
     match: pattern
     fields:
-      - name: d
+      - name: ''
         type: string
         label: label1
         description: d1
