@@ -622,4 +622,3 @@ models:
     label: pagemodel1
     layout: pagemodel1
     singleInstance: true
-    file: eeeee
