@@ -632,3 +632,5 @@ models:
         hidden: true
         default: d4
         const: d4
+      - name: ''
+        type: string
