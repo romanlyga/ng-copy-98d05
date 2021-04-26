@@ -623,3 +623,4 @@ models:
     layout: pagemodel1
     folder: Path
     exclude: exclude
+    match: pattern
