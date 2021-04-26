@@ -630,5 +630,4 @@ models:
         label: label1
         description: d1
         const: value
-        required: true
         hidden: true
