@@ -621,4 +621,3 @@ models:
     type: page
     label: pagemodel1
     layout: pagemodel1
-    folder: FolderPath
